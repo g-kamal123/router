@@ -1,0 +1,29 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+nav{
+  padding: 1% 5%;
+  background-color: rgb(59, 59, 134);
+  color: whitesmoke;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+}
+li{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.item{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5%;
+}
